@@ -37,11 +37,11 @@ public class CustomListTest {
         });
     }
 
-    // @Test
-    // public void testCountCities() {
-    //     CustomList list = mockCityList();
-    //     list.addCity(new City("Lahore", "Punjab"));
-    //     list.addCity(new City("Karachi", "Sindh"));
-    //     assertEquals(2, list.countCities());
-    // }
+     @Test
+     public void testCountCities() {
+         CustomList list = mockCityList();
+         list.addCity(new City("Lahore", "Punjab"));
+         list.addCity(new City("Karachi", "Sindh"));
+         assertEquals(2, list.countCities());
+     }
 }
