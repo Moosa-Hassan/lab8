@@ -25,12 +25,12 @@ public class CustomList {
 
 }
 
-// public void delete(City city) {
-//         if (!cities.contains(city)) {
-//             throw new IllegalArgumentException("City not found in list");
-//         }
-//         cities.remove(city);
-//     }
+public void delete(City city) {
+        if (!cities.contains(city)) {
+            throw new IllegalArgumentException("City not found in list");
+        }
+        cities.remove(city);
+    }
 //     /**
 //      * This returns the number of cities in the list
 //      * returns The size of the city list
