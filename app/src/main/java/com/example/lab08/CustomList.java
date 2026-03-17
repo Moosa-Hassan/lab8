@@ -21,5 +21,21 @@ public class CustomList {
     // public boolean hasCity(City city) { ... }
     public boolean hasCity(City city) {
  return cities.contains(city);
+
+
 }
+
+// public void delete(City city) {
+//         if (!cities.contains(city)) {
+//             throw new IllegalArgumentException("City not found in list");
+//         }
+//         cities.remove(city);
+//     }
+//     /**
+//      * This returns the number of cities in the list
+//      * returns The size of the city list
+//      */
+//     public int countCities() {
+//         return cities.size();
+//     }
 }
