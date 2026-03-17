@@ -31,11 +31,11 @@ public void delete(City city) {
         }
         cities.remove(city);
     }
-//     /**
-//      * This returns the number of cities in the list
-//      * returns The size of the city list
-//      */
-    // public int countCities() {
-    //     return cities.size();
-    // }
+    /**
+     * This returns the number of cities in the list
+     * returns The size of the city list
+     */
+    public int countCities() {
+        return cities.size();
+    }
 }
