@@ -35,7 +35,7 @@ public void delete(City city) {
 //      * This returns the number of cities in the list
 //      * returns The size of the city list
 //      */
-//     public int countCities() {
-//         return cities.size();
-//     }
+    public int countCities() {
+        return cities.size();
+    }
 }
