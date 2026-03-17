@@ -3,11 +3,11 @@ package com.example.lab08;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CustomList {
+public class CityList {
     // adding comment for lab
     private List<City> cities;
 
-    public CustomList() {
+    public CityList() {
         this.cities = new ArrayList<>();
     }
 
